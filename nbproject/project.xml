@@ -25,6 +25,14 @@
                 <id>jar</id>
             </reference>
             <reference>
+                <foreign-project>GuiceInjection</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+            <reference>
                 <foreign-project>JQEasingEffects</foreign-project>
                 <artifact-type>jar</artifact-type>
                 <script>build.xml</script>
@@ -34,6 +42,22 @@
             </reference>
             <reference>
                 <foreign-project>JWebSwing</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+            <reference>
+                <foreign-project>JWebSwingInterception</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+            <reference>
+                <foreign-project>LogMaster</foreign-project>
                 <artifact-type>jar</artifact-type>
                 <script>build.xml</script>
                 <target>jar</target>
