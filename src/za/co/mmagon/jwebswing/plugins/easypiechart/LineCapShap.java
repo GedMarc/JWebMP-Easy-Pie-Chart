@@ -24,14 +24,6 @@ public enum LineCapShap
     }
 
     /**
-     * A new LineCapShap with data
-     */
-    private LineCapShap(String data)
-    {
-
-    }
-
-    /**
      * Returns the name or the data contained within
      *
      * @return

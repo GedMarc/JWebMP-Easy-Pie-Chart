@@ -26,7 +26,8 @@ import za.co.mmagon.jwebswing.plugins.jquery.JQueryPageConfigurator;
         pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/EasyPieChart.jar/download"
 )
 
-class EasyPieChartPageConfigurator extends PageConfigurator
+@SuppressWarnings("unused")
+public class EasyPieChartPageConfigurator extends PageConfigurator
 {
 
     private static final long serialVersionUID = 1L;
@@ -36,7 +37,7 @@ class EasyPieChartPageConfigurator extends PageConfigurator
      */
     public EasyPieChartPageConfigurator()
     {
-
+		//Nothing Needed
     }
 
     @Override

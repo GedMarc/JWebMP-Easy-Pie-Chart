@@ -102,7 +102,6 @@
                                 </goals>
                                 <configuration>
                                     <failOnError>false</failOnError>
-                                    <stripVersion>true</stripVersion>
                                 </configuration>
                             </execution>
                         </executions>
@@ -162,14 +161,6 @@
     </build>
 
     <dependencies>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <type>jar</type>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
@@ -208,6 +199,12 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>jwebswing-easing-effects</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.0.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

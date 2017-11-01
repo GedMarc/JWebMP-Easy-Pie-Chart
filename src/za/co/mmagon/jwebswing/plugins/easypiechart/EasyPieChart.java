@@ -38,7 +38,8 @@ public class EasyPieChart extends Div
     {
         addClass("chart");
         this.percentage = percentage;
-        addFeature(feature = new EasyPieChartFeature(this));
+	    feature = new EasyPieChartFeature(this);
+        addFeature(feature);
     }
 
     @Override
@@ -46,7 +47,7 @@ public class EasyPieChart extends Div
     {
         if (!isConfigured())
         {
-            addAttribute("data-percent", "" + percentage);
+            addAttribute("data-percent", Double.toString(percentage));
         }
         super.preConfigure();
     }
@@ -103,5 +104,17 @@ public class EasyPieChart extends Div
     {
         return getFeature().getOptions();
     }
+
+	@Override
+	public boolean equals(Object o)
+	{
+		return super.equals(o);
+	}
+
+	@Override
+	public int hashCode()
+	{
+		return super.hashCode();
+	}
 
 }

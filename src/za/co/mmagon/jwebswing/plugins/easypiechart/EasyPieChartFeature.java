@@ -41,7 +41,6 @@ public class EasyPieChartFeature extends Feature<EasyPieChartOptions, EasyPieCha
     protected void assignFunctionsToComponent()
     {
         addQuery(getComponent().getJQueryID() + "easyPieChart(" + getOptions() + ");");
-        super.assignFunctionsToComponent();
     }
 
 }

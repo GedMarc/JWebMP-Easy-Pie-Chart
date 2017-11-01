@@ -1,7 +1,7 @@
 package za.co.mmagon.jwebswing.plugins.easypiechart;
 
-import org.junit.Test;
-import za.co.mmagon.BaseTestClass;
+import org.junit.jupiter.api.Test;
+import za.co.mmagon.jwebswing.BaseTestClass;
 import za.co.mmagon.jwebswing.Page;
 
 /**
