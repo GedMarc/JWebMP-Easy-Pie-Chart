@@ -145,19 +145,71 @@
     </properties>
 
     <build>
+        <sourceDirectory>${src.dir}</sourceDirectory>
+        <testSourceDirectory>${test.dir}</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>testJar</id>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
 
-        <sourceDirectory>src</sourceDirectory>
-        <testSourceDirectory>test</testSourceDirectory>
+                <version>${maven.jar.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.3.0.603</version>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.9</version>
+            </plugin>
+        </plugins>
 
         <resources>
             <resource>
                 <directory>jar-resources</directory>
+                <excludes>
+                    <exclude>**/*.gzip</exclude>
+                    <exclude>**/*.map</exclude>
+                    <exclude>**/*.md</exclude>
+                    <exclude>**/*.md</exclude>
+                    <exclude>**/package.json</exclude>
+                    <exclude>**/bower.json</exclude>
+                    <exclude>**/.bower.json</exclude>
+                    <exclude>**/.gitignore</exclude>
+                    <exclude>**/.jshint</exclude>
+                    <exclude>**/.jshint</exclude>
+                    <exclude>**/Gruntfile.js</exclude>
+                    <exclude>**/*.sh</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.js</include>
+                    <include>**/*.css</include>
+                    <include>**/*.min</include>
+                    <include>**/*.html</include>
+                </includes>
             </resource>
         </resources>
-
-        <plugins>
-
-        </plugins>
     </build>
 
     <dependencies>
@@ -208,19 +260,41 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <name>ArminSoftwareArtifactory-snapshots</name>
+            <url>https://www.armin.software/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <name>ArminSoftwareArtifactory-releases</name>
+            <url>https://www.armin.software/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
     <organization>
         <name>Armin Software</name>
-        <url>http://www.armin.software</url>
+        <url>http://www.armin.software/</url>
     </organization>
-
     <scm>
         <url>http://www.armin.software/artifactory</url>
         <developerConnection>Marc Magon</developerConnection>
     </scm>
-
     <ciManagement>
         <system>TeamCity</system>
         <url>http://www.armin.software/teamcity</url>
     </ciManagement>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.17</version>
+                <configuration>
+                    <configLocation>config/sun_checks.xml</configLocation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 
 </project>
