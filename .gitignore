@@ -10,3 +10,4 @@ persistence.xml
 /.jacocoverage/
 /build
 /target/
+**/**.iml
