@@ -45,7 +45,7 @@ public class EasyPieChartPageConfigurator extends PageConfigurator
     {
         if (!page.isConfigured())
         {
-            JQueryPageConfigurator.setRequired(page.getBody(), true);
+            JQueryPageConfigurator.setRequired(true);
             page.getBody().addJavaScriptReference(EasyPieChartReferencePool.EasyPieChart.getJavaScriptReference());
         }
         return page;

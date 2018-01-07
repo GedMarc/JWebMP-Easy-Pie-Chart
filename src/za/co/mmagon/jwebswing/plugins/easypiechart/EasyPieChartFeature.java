@@ -3,6 +3,8 @@ package za.co.mmagon.jwebswing.plugins.easypiechart;
 import za.co.mmagon.jwebswing.Feature;
 import za.co.mmagon.jwebswing.base.ComponentHierarchyBase;
 
+import static za.co.mmagon.jwebswing.utilities.StaticStrings.STRING_CLOSING_BRACKET_SEMICOLON;
+
 /**
  * Applies the JQuery to the easy pie chart feature
  *
@@ -40,7 +42,7 @@ public class EasyPieChartFeature extends Feature<EasyPieChartOptions, EasyPieCha
     @Override
     protected void assignFunctionsToComponent()
     {
-        addQuery(getComponent().getJQueryID() + "easyPieChart(" + getOptions() + ");");
+        addQuery(getComponent().getJQueryID() + "easyPieChart(" + getOptions() + STRING_CLOSING_BRACKET_SEMICOLON);
     }
 
 }
