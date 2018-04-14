@@ -1,8 +1,8 @@
-package za.co.mmagon.jwebswing.plugins.easypiechart;
+package com.jwebmp.plugins.easypiechart;
 
-import za.co.mmagon.jwebswing.htmlbuilder.css.colours.ColourCSSImpl;
-import za.co.mmagon.jwebswing.htmlbuilder.javascript.JavaScriptPart;
-import za.co.mmagon.jwebswing.plugins.easingeffects.JQEasingEffects;
+import com.jwebmp.htmlbuilder.css.colours.ColourCSSImpl;
+import com.jwebmp.htmlbuilder.javascript.JavaScriptPart;
+import com.jwebmp.plugins.easingeffects.JQEasingEffects;
 
 /**
  * All the options available for the easy pie chart

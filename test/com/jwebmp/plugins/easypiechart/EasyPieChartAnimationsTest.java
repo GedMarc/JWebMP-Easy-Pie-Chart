@@ -1,4 +1,4 @@
-package za.co.mmagon.jwebswing.plugins.easypiechart;
+package com.jwebmp.plugins.easypiechart;
 
 import org.junit.jupiter.api.Test;
 
