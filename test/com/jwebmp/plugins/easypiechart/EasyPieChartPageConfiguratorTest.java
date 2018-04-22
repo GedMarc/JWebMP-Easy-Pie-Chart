@@ -1,6 +1,5 @@
 package com.jwebmp.plugins.easypiechart;
 
-import com.jwebmp.BaseTestClass;
 import com.jwebmp.Page;
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +7,7 @@ import org.junit.jupiter.api.Test;
  * @author Marc Magon
  */
 public class EasyPieChartPageConfiguratorTest
-		extends BaseTestClass
+
 {
 
 	public EasyPieChartPageConfiguratorTest()
@@ -18,7 +17,7 @@ public class EasyPieChartPageConfiguratorTest
 	@Test
 	public void testSomeMethod()
 	{
-		Page p = getInstance();
+		Page p = new Page();
 		System.out.println(p.toString(0));
 	}
 
