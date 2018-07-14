@@ -28,7 +28,8 @@ import com.jwebmp.base.servlets.interfaces.ReferencePool;
  * @author Marc Magon
  * @since 09 Jun 2017
  */
-enum EasyPieChartReferencePool implements ReferencePool
+enum EasyPieChartReferencePool
+		implements ReferencePool
 {
 	EasyPieChart(new JavascriptReference("EasyPieChart", 2.1, "bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.js"), null);
 	/**

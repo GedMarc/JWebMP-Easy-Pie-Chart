@@ -20,7 +20,7 @@ package com.jwebmp.plugins.easypiechart;
 import com.jwebmp.Feature;
 import com.jwebmp.base.ComponentHierarchyBase;
 
-import static com.jwebmp.utilities.StaticStrings.STRING_CLOSING_BRACKET_SEMICOLON;
+import static com.jwebmp.utilities.StaticStrings.*;
 
 /**
  * Applies the JQuery to the easy pie chart feature
