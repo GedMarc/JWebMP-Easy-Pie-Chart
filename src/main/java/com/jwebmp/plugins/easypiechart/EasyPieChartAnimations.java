@@ -17,7 +17,7 @@
 
 package com.jwebmp.plugins.easypiechart;
 
-import com.jwebmp.htmlbuilder.javascript.JavaScriptPart;
+import com.jwebmp.core.htmlbuilder.javascript.JavaScriptPart;
 
 /**
  * Allows enabling or disabling animations - they are enabled by default through non-nullables.

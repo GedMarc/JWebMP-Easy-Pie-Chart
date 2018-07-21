@@ -17,10 +17,10 @@
 
 package com.jwebmp.plugins.easypiechart;
 
-import com.jwebmp.Feature;
-import com.jwebmp.base.ComponentHierarchyBase;
+import com.jwebmp.core.Feature;
+import com.jwebmp.core.base.ComponentHierarchyBase;
 
-import static com.jwebmp.utilities.StaticStrings.*;
+import static com.jwebmp.core.utilities.StaticStrings.*;
 
 /**
  * Applies the JQuery to the easy pie chart feature

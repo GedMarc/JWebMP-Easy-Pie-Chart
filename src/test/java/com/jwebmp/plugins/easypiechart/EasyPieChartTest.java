@@ -17,7 +17,7 @@
 
 package com.jwebmp.plugins.easypiechart;
 
-import com.jwebmp.htmlbuilder.css.colours.ColourCSSImpl;
+import com.jwebmp.core.htmlbuilder.css.colours.ColourCSSImpl;
 import com.jwebmp.plugins.easingeffects.JQEasingEffects;
 import org.junit.jupiter.api.Test;
 

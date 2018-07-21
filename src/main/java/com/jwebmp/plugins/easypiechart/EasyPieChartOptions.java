@@ -1,7 +1,7 @@
 package com.jwebmp.plugins.easypiechart;
 
-import com.jwebmp.htmlbuilder.css.colours.ColourCSSImpl;
-import com.jwebmp.htmlbuilder.javascript.JavaScriptPart;
+import com.jwebmp.core.htmlbuilder.css.colours.ColourCSSImpl;
+import com.jwebmp.core.htmlbuilder.javascript.JavaScriptPart;
 import com.jwebmp.plugins.easingeffects.JQEasingEffects;
 
 /**
