@@ -1,9 +1,9 @@
 package com.jwebmp.plugins.easypiechart;
 
 import com.jwebmp.core.Page;
-import com.jwebmp.core.PageConfigurator;
 import com.jwebmp.core.plugins.PluginInformation;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
+import com.jwebmp.core.services.IPageConfigurator;
 
 /**
  * The Easy Pie Chart Configuration
@@ -27,11 +27,8 @@ import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 
 @SuppressWarnings("unused")
 public class EasyPieChartPageConfigurator
-		extends PageConfigurator
+		implements IPageConfigurator
 {
-
-	private static final long serialVersionUID = 1L;
-
 	/*
 	 * Constructs a new EasyPieChartPageConfigurator
 	 */

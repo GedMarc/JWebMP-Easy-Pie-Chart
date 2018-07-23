@@ -1,3 +1,6 @@
+import com.jwebmp.core.services.IPageConfigurator;
+import com.jwebmp.plugins.easypiechart.EasyPieChartPageConfigurator;
+
 module com.jwebmp.plugins.easypiechart {
 	exports com.jwebmp.plugins.easypiechart;
 
@@ -8,4 +11,7 @@ module com.jwebmp.plugins.easypiechart {
 	requires java.validation;
 	requires java.logging;
 	requires com.jwebmp.plugins.easingeffects;
+
+	provides IPageConfigurator with EasyPieChartPageConfigurator;
+
 }
