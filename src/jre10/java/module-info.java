@@ -13,5 +13,5 @@ module com.jwebmp.plugins.easypiechart {
 	requires com.jwebmp.plugins.easingeffects;
 
 	provides IPageConfigurator with EasyPieChartPageConfigurator;
-
+	opens com.jwebmp.plugins.easypiechart to com.fasterxml.jackson.databind,com.jwebmp.core;
 }
