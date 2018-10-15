@@ -20,8 +20,8 @@ import javax.validation.constraints.NotNull;
 		pluginCategories = "charting,pie,easy pie,ui,web ui, framework",
 		pluginSubtitle = "ightweight plugin to render simple, animated and retina optimized pie charts",
 		pluginSourceUrl = "https://github.com/rendro/easy-pie-charte",
-		pluginWikiUrl = "https://github.com/GedMarc/JWebSwing-Easy-Pie-Chart/wiki",
-		pluginGitUrl = "https://github.com/GedMarc/JWebSwing-Easy-Pie-Chart",
+		pluginWikiUrl = "https://github.com/GedMarc/JWebMP-Easy-Pie-Chart/wiki",
+		pluginGitUrl = "https://github.com/GedMarc/JWebMP-Easy-Pie-Chart",
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://github.com/rendro/easy-pie-chart",
@@ -29,7 +29,7 @@ import javax.validation.constraints.NotNull;
 
 @SuppressWarnings("unused")
 public class EasyPieChartPageConfigurator
-		implements IPageConfigurator
+		implements IPageConfigurator<EasyPieChartPageConfigurator>
 {
 	/**
 	 * If this configurator is enabled
