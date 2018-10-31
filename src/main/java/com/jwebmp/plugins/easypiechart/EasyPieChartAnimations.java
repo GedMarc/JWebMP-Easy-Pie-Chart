@@ -29,7 +29,7 @@ public class EasyPieChartAnimations
 		extends JavaScriptPart
 {
 
-	private static final long serialVersionUID = 1L;
+
 	/**
 	 * Object with time in milliseconds and boolean
 	 */

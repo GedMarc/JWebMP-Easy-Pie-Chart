@@ -14,7 +14,6 @@ public class EasyPieChartOptions
 		extends JavaScriptPart
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/**
 	 * The color of the curcular bar. You can either pass a valid css color string, or a function that takes the current percentage as a value and returns a valid css color

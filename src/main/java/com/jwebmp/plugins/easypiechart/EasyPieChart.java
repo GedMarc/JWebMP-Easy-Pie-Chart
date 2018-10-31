@@ -33,7 +33,7 @@ public class EasyPieChart
 		extends Div
 {
 
-	private static final long serialVersionUID = 1L;
+
 	/**
 	 * The percentage to be used
 	 */
@@ -124,15 +124,15 @@ public class EasyPieChart
 	}
 
 	@Override
-	public boolean equals(Object o)
-	{
-		return super.equals(o);
-	}
-
-	@Override
 	public int hashCode()
 	{
 		return super.hashCode();
+	}
+
+	@Override
+	public boolean equals(Object o)
+	{
+		return super.equals(o);
 	}
 
 }

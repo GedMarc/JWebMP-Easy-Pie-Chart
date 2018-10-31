@@ -33,7 +33,6 @@ public class EasyPieChartFeature
 		extends Feature<GlobalFeatures, EasyPieChartOptions, EasyPieChartFeature>
 {
 
-	private static final long serialVersionUID = 1L;
 
 	/*
 	 * Constructs a new EasyPieChartFeature
