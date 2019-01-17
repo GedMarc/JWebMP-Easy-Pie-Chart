@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 /**
  * The Easy Pie Chart Configuration
  *
- * @author Marc Magon
+ * @author GedMarc
  * @since 08 Jun 2017
  */
 @PluginInformation(pluginName = "Easy Pie Chart",

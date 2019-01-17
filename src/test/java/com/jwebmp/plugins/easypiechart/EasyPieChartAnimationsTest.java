@@ -3,7 +3,7 @@ package com.jwebmp.plugins.easypiechart;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Marc Magon
+ * @author GedMarc
  */
 public class EasyPieChartAnimationsTest
 {

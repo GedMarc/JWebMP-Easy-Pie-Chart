@@ -7,7 +7,7 @@ import com.jwebmp.plugins.easingeffects.JQEasingEffects;
 /**
  * All the options available for the easy pie chart
  *
- * @author Marc Magon
+ * @author GedMarc
  * @since 12 Jun 2017
  */
 public class EasyPieChartOptions
