@@ -18,6 +18,7 @@
 package com.jwebmp.plugins.easypiechart;
 
 import com.jwebmp.core.base.html.Div;
+import com.jwebmp.core.base.html.DivSimple;
 import com.jwebmp.core.plugins.ComponentInformation;
 
 /**
@@ -30,7 +31,7 @@ import com.jwebmp.core.plugins.ComponentInformation;
 		description = "easy pie chart is a lightweight plugin to draw simple, animated pie charts for single values http://rendro.github.io/easy-pie-chart",
 		url = "https://github.com/rendro/easy-pie-chart")
 public class EasyPieChart
-		extends Div
+		extends DivSimple<EasyPieChart>
 {
 
 
