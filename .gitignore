@@ -11,3 +11,4 @@ persistence.xml
 /build
 /target/
 **/*.iml
+/.idea/
