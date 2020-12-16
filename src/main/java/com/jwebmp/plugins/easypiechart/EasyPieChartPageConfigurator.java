@@ -2,6 +2,7 @@ package com.jwebmp.plugins.easypiechart;
 
 import com.jwebmp.core.Page;
 import com.jwebmp.core.plugins.PluginInformation;
+import com.jwebmp.core.plugins.PluginStatus;
 import com.jwebmp.core.plugins.jquery.JQueryPageConfigurator;
 import com.jwebmp.core.services.IPageConfigurator;
 
@@ -25,7 +26,12 @@ import jakarta.validation.constraints.NotNull;
 		pluginIconUrl = "",
 		pluginIconImageUrl = "",
 		pluginOriginalHomepage = "https://github.com/rendro/easy-pie-chart",
-		pluginDownloadUrl = "https://sourceforge.net/projects/jwebswing/files/plugins/EasyPieChart.jar/download")
+		pluginDownloadUrl = "https://mvnrepository.com/artifact/com.jwebmp.plugins.graphing/jwebmp-easy-pie-chart",
+	pluginGroupId = "com.jwebmp.plugins.graphing",
+		pluginArtifactId = "jwebmp-easy-pie-chart",
+		pluginModuleName = "com.jwebmp.plugins.easypiechart",
+		pluginStatus = PluginStatus.Released
+)
 
 @SuppressWarnings("unused")
 public class EasyPieChartPageConfigurator

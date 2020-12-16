@@ -11,7 +11,7 @@ import com.jwebmp.plugins.easingeffects.JQEasingEffects;
  * @since 12 Jun 2017
  */
 public class EasyPieChartOptions
-		extends JavaScriptPart
+		extends JavaScriptPart<EasyPieChartOptions>
 {
 
 

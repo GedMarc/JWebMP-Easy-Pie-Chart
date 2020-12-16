@@ -26,7 +26,7 @@ import com.jwebmp.core.htmlbuilder.javascript.JavaScriptPart;
  * @since 12 Jun 2017
  */
 public class EasyPieChartAnimations
-		extends JavaScriptPart
+		extends JavaScriptPart<EasyPieChartAnimations>
 {
 
 

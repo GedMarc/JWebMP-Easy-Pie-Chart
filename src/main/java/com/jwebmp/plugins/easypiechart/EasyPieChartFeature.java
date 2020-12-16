@@ -61,7 +61,7 @@ public class EasyPieChartFeature
 	@Override
 	protected void assignFunctionsToComponent()
 	{
-		addQuery(getComponent().getJQueryID() + "easyPieChart(" + getOptions() + STRING_CLOSING_BRACKET_SEMICOLON);
+		addQuery(getComponent().asBase().getJQueryID() + "easyPieChart(" + getOptions() + STRING_CLOSING_BRACKET_SEMICOLON);
 	}
 
 }
