@@ -16,7 +16,7 @@ import jakarta.validation.constraints.NotNull;
  */
 @PluginInformation(pluginName = "Easy Pie Chart",
 		pluginDescription = "easy pie chart is a lightweight plugin to draw simple, animated pie charts for single values http://rendro.github.io/easy-pie-chart",
-		pluginUniqueName = "jwebswing-easy-pie-chart",
+		pluginUniqueName = "easy-pie-chart",
 		pluginVersion = "2.1.7",
 		pluginCategories = "charting,pie,easy pie,ui,web ui, framework",
 		pluginSubtitle = "ightweight plugin to render simple, animated and retina optimized pie charts",
