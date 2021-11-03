@@ -10,7 +10,7 @@
     <groupId>com.jwebmp.plugins.graphing</groupId>
     <artifactId>jwebmp-easy-pie-chart</artifactId>
     <packaging>jar</packaging>
-
+    <version>0.0.0_0-SNAPSHOT</version>
     <name>Easy Pie Chart</name>
     <description>The JWebSwing implementation for the Easy Pie Chart Widget</description>
     <url>https://github.com/GedMarc/JWebSwing-Easy-Pie-Chart</url>
